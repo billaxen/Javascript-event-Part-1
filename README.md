@@ -1,8 +1,21 @@
 # JavaScript - Events
 
-## Setup
+## 🦊 Pre-lecture
+
+⏲️ _Estimated time required: 45 minutes._
+
+- Read the documents in the `__pre-lecture` folder. _This will allow you to start the fundamentals section._
+- Skim this chapter: https://eloquentjavascript.net/15_event.html
 
 ---
+
+## 🦉 Lecture
+
+You will find a markdown version of today's lecture in the `__lecture` folder.
+
+---
+
+## ⚡ Exercises
 
 ## Exercise 1.0 - Warm up
 

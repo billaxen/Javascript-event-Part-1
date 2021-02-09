@@ -1,9 +1,3 @@
-# [2-5]
-
-# Events P1
-
----
-
 # Fundamentals: Switch Statement
 
 ---

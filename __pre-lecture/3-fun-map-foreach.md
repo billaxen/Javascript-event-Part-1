@@ -1,4 +1,4 @@
-# Fundamentals: `map()` and `.forEach()`
+# Fundamentals: `map()` and `.forEach()` (review)
 
 ---
 
