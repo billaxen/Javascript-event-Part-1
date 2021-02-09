@@ -13,6 +13,8 @@
 
 You will find a markdown version of today's lecture in the `__lecture` folder.
 
+If you weould like to preview the markdown files as slides, you will need to install this extension: [marp-vscode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode). After which, doing "Preview" will render slides similar to those viewed in the lecture.
+
 ---
 
 ## ⚡ Exercises
