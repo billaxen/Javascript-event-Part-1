@@ -12,19 +12,19 @@ marp: true
 
 Open the door, when someone is there.
 
-<img src="./assets/door.gif" />
+![door](./assets/door.gif)
 
 ---
 
 ## Event-driven Programming
 
-<img src="./assets/fig1_event.png" />
+![figure](./assets/fig1_event.png)
 
 ---
 
 ### Event Types
 
-<img src="./assets/event_types.jpg" />
+![types](./assets/event_types.jpg)
 
 [Source](https://data-flair.training/blogs/javascript-event-types/)
 
@@ -118,7 +118,7 @@ Handlers registered on nodes with children will also receive events that happen 
 
 ---
 
-<img src="./assets/propagation_bubbling.png" />
+![bubbling](./assets/propagation_bubbling.png)
 
 [Source](https://www.sitepoint.com/event-bubbling-javascript/)
 
