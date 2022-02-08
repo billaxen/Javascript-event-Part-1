@@ -1,10 +1,12 @@
----
-marp: true
----
+import mdxTheme from '../../theme';
+export const theme = mdxTheme;
 
-# [2-5]
+import fig1Event from './assets/fig1_event.png';
+import eventTypes from './assets/event_types.jpg';
+import door from './assets/door.gif';
+import propBubble from './assets/propagation_bubbling.png';
 
-# Events P1
+# Events
 
 ---
 
@@ -12,19 +14,19 @@ marp: true
 
 Open the door, when someone is there.
 
-![door](./assets/door.gif)
+<img src={door} />
 
 ---
 
 ## Event-driven Programming
 
-![figure](./assets/fig1_event.png)
+<img src={fig1Event} />
 
 ---
 
 ### Event Types
 
-![types](./assets/event_types.jpg)
+<img src={eventTypes} />
 
 [Source](https://data-flair.training/blogs/javascript-event-types/)
 
@@ -36,7 +38,8 @@ Open the door, when someone is there.
 - Keyboard Events: `input`, `keydown`, `keypress`, `keyup`
 - Form Events: `submit`, `change`, `input`
 
-\*_new; not supported by Firefox_
+
+*_new; not supported by Firefox_
 
 Focus and blur events fire when the HTML elements **you can interact with** gain/lose focus.
 
@@ -54,6 +57,7 @@ All DOM nodes have methods we can use to _notify_ us of an event.
 
 ```js
 // Example
+
 ```
 
 ---
@@ -69,7 +73,7 @@ This object includes lots of stuff.
 - `stopPropagation()`
 
 ---
-
+    
 ### Default Actions
 
 Some events have _default_ actions associated to them.
@@ -83,10 +87,10 @@ In most cases handlers are called _before_ the default action takes place.
 You can prevent the _default_ action from happening by calling `event.preventDefault();` in the eventListener function.
 
 ---
-
+    
 ### target
 
-- The `target` property refers to the node where they **originated**. (example)
+- The  `target` property refers to the node where they **originated**. (example)
 - With an `input`, use `event.target.value` to read what was entered into an `input`.
 
 ---
@@ -97,12 +101,10 @@ Handlers registered on nodes with children will also receive events that happen 
 
 ```html
 <div>
-  <ul>
-    <li>
-      <a href="#"><img scr="..." /></a>
-    </li>
-    ...
-  </ul>
+    <ul>
+        <li><a href="#"><img scr="..."></a></li>
+        ...
+    </ul>
 </div>
 ```
 
@@ -118,7 +120,7 @@ Handlers registered on nodes with children will also receive events that happen 
 
 ---
 
-![bubbling](./assets/propagation_bubbling.png)
+<img src={propBubble} />
 
 [Source](https://www.sitepoint.com/event-bubbling-javascript/)
 
@@ -127,19 +129,19 @@ Handlers registered on nodes with children will also receive events that happen 
 `<p>A paragraph with a <button id="the-btn">button</button>.</p>` [🐇](https://codepen.io/gnomecircle/pres/BajQgzy?editors=1011)
 
 ```js
+    
 let para = document.querySelector("p");
 let button = document.querySelector("button");
 
 para.addEventListener("mousedown", () => {
-  console.log("Handler for paragraph.");
+    console.log("Handler for paragraph.");
 });
 
-button.addEventListener("mousedown", (event) => {
-  console.log("Handler for button.");
-  if (event.button == 2) event.stopPropagation();
+button.addEventListener("mousedown", event => {
+    console.log("Handler for button.");
+    if (event.button == 2) event.stopPropagation();
 });
 ```
-
 ---
 
 ## Events and the Event Loop
