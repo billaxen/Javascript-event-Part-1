@@ -1,5 +1,8 @@
-import mdxTheme from '../../theme';
-export const theme = mdxTheme;
+---
+
+marp: true
+
+---
 
 # Fundamentals: `map()` and `.forEach()`
 

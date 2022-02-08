@@ -1,10 +1,8 @@
-import mdxTheme from '../../theme';
-export const theme = mdxTheme;
+---
 
-import fig1Event from './assets/fig1_event.png';
-import eventTypes from './assets/event_types.jpg';
-import door from './assets/door.gif';
-import propBubble from './assets/propagation_bubbling.png';
+marp: true
+
+---
 
 # Events
 
@@ -14,19 +12,19 @@ import propBubble from './assets/propagation_bubbling.png';
 
 Open the door, when someone is there.
 
-<img src={door} />
+![door](./assets/door.gif)
 
 ---
 
 ## Event-driven Programming
 
-<img src={fig1Event} />
+![events_figure](./assets/fig1_event.png)
 
 ---
 
 ### Event Types
 
-<img src={eventTypes} />
+![event_types](./assets/event_types.jpg)
 
 [Source](https://data-flair.training/blogs/javascript-event-types/)
 
@@ -120,7 +118,7 @@ Handlers registered on nodes with children will also receive events that happen 
 
 ---
 
-<img src={propBubble} />
+![bubbling](./assets/propagation_bubbling.png)
 
 [Source](https://www.sitepoint.com/event-bubbling-javascript/)
 
