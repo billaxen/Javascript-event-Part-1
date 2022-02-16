@@ -64,7 +64,7 @@ console.log(fruit);
 ```js
 let roomTemperature = 21;
 
-function turnOnHeater() {
+const turnOnHeater = () => {
   roomTemperature = 24;
 }
 
@@ -79,7 +79,7 @@ console.log(roomTemperature);
 ```js
 let mood = "😪";
 
-function watchTelevision() {
+const watchTelevision = () => {
   let show = "Tiger King";
   mood = ["😳", "🤢", "🥴"];
 }
@@ -107,7 +107,7 @@ let recipe = [
 
 bake();
 
-function bake(recipe) {
+const bake = (recipe) => {
   // What is the value of `recipe`?
   console.log(recipe);
 }
@@ -153,7 +153,7 @@ console.log(hi); // 5
 ```js
 let hi = 5;
 
-function sayHi(hi) {
+const sayHi = (hi) => {
   return hi;
 }
 
