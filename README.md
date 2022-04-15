@@ -29,20 +29,7 @@ Once the user clicks, add some text to the page.
 Hints:
 
 - Target the `<body>`
-- By default, the `<body>` will be 0px tall. Add this into the `head` of the `index.html` file.
-
-```html
-<style>
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    width: 100vw;
-    height: 100vh;
-  }
-</style>
-```
+- By default, the `<body>` will be 0px tall. Link the `css` to the `head` of the `index.html` file.
 
 ## Exercise 1.1 - Warmer
 
@@ -59,7 +46,6 @@ Hints:
 
 - Target the `<body>`
 - `setTimout` is your friend.
-- You'll need a flag (variable containing a boolean) to keep track of whether the user has won or lost.
 
 ## Exercise 1.2 - Counting down!
 
@@ -80,7 +66,7 @@ In short, replicate (and I do mean, REWRITE it from scratch) the last exercise, 
 - random amount of time to click
 - tell the user how much time they have to click.
 
-**Challenge:** Make the countdown live (update on the screen)...
+> **Stretch:** Make the countdown live (update on the screen)
 
 ---
 

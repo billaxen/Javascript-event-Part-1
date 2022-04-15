@@ -31,13 +31,10 @@ Open the door, when someone is there.
 ---
 
 - User Interface Events: `load`, `unload`, `error`, `resize`, `scroll`
-- Focus and Blur Events: `focus`, `blur`, `focusin`\*, `focusout`\*
+- Focus and Blur Events: `focus`, `blur`, `focusin`, `focusout`
 - Mouse Events: `click`, `dblclick`, `mousedown`, `mouseup`, `mouseover`, `mouseout`, `mousemove`
 - Keyboard Events: `input`, `keydown`, `keypress`, `keyup`
 - Form Events: `submit`, `change`, `input`
-
-
-*_new; not supported by Firefox_
 
 Focus and blur events fire when the HTML elements **you can interact with** gain/lose focus.
 
