@@ -19,17 +19,14 @@ If you would like to preview the markdown files as slides, you will need to inst
 
 ## ⚡ Exercises
 
+> Don't forget to link the `css` to the `head` of the `index.html` file.
+
 ## Exercise 1.0 - Warm up
 
 <img src="__lecture/assets/exercise-1.0.gif" />
 
 Write an app that registers a click anywhere on the screen.
 Once the user clicks, add some text to the page.
-
-Hints:
-
-- Target the `<body>`
-- By default, the `<body>` will be 0px tall. Link the `css` to the `head` of the `index.html` file.
 
 ## Exercise 1.1 - Warmer
 
